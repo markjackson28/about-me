@@ -16,14 +16,17 @@ h2 {
 
 p {
     margin: 5px 25px 25px; 
+    line-height: 1.5;
 }
 
 ul {
     margin: 5px 45px 25px; 
     list-style: disc;
+    line-height: 1.5;
 }
 
 ol {
     margin: 5px 45px 25px; 
     list-style-type: upper-roman;
+    line-height: 1.5;
 }

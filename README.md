@@ -7,7 +7,7 @@ I build an app with a direct and powerful purpose. It does all of the things tha
 
 ### Author: Mark Thandabouth
 
-### Collabs:
+### Collaborators:
 
 ### Links and Resources
 * [submission PR](http://xyz.com)

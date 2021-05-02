@@ -3,19 +3,18 @@
 # LAB - 02, 03, 04, 05a, and 05b
 
 ## About Me
-I build an app with a direct and powerful purpose. It does all of the things that it accomplishes well. I should describe the purpose and functionality so those that visit my README understand the app
+This is the start of my about me page. So far my page has promps and questions to answer. Then followed by a little biography about myself.
 
 ### Author: Mark Thandabouth
 
-### Collaborators:
+### Collaborators: Ryan G, Matt M, David W.
 
 ### Links and Resources
 * [submission PR](http://xyz.com)
 * Any Links you used as reference
 
 ### Reflections and Comments
-* Consider including the answers to your daily journal and submission questions here
-* This is also a good place to reflect on the tools and resources used and learned
+* Need to freshen up on loops. That was pretty hard to comprehend. (05/01)
 white_check_mark
 eyes
 raised_hands

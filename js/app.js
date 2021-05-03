@@ -62,7 +62,7 @@ if (answerFive === 'yes' || answerFive === 'y') {
 
 // Sixth Question
 
-  alert('I have a picked a number between 1-15. You will have 4 chances to guess the correct number. Have fun!')
+  alert('I have a picked a number between 1-15. You will have 4 chances to guess the correct number. Have fun!');
 
 for (let i = 4; i > 0; i--){
   let answerSix = parseInt(prompt('Please pick a number 1-15.'));
@@ -106,7 +106,7 @@ while (!answeredCorrectly && attempts){
   } 
   if (attempts === 1){
     //console.log('Sorry you did not answer Correctly. My answers were red, white, and blue. Good try though!')
-    alert('Sorry you did not answer Correctly. My answers were red, white, and blue. Good try though!')
+    alert('Sorry you did not answer Correctly. My answers were red, white, and blue. Good try though!');
   }
   attempts--
 }

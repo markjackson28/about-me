@@ -96,29 +96,31 @@ function q6 () {
 q6();
 
 // Seventh Question
+function q7(){
+  let answeredCorrectly = false;
+  let attempts = 6;
 
-let answeredCorrectly = false;
-let attempts = 6;
+  alert('For this question, you will have 6 attempts.');
+  while (!answeredCorrectly && attempts){
+    let favColors = ['red', 'white', 'blue'];
+    let answerSeven = prompt('What is one of my top 3 colors?').toLowerCase();
 
-alert('For this question, you will have 6 attempts.');
-while (!answeredCorrectly && attempts){
-  let favColors = ['red', 'white', 'blue'];
-  let answerSeven = prompt('What is one of my top 3 colors?').toLowerCase();
-
-  for (let i = 0; i < favColors.length; i++){
-    if (answerSeven === favColors[i]) {
+    for (let i = 0; i < favColors.length; i++){
+      if (answerSeven === favColors[i]) {
       // console.log('You are correct!');
-      alert('You are correct! Great Job!');
-      answeredCorrectly = true;
-      totalScore++;
+        alert('You are correct! Great Job!');
+        answeredCorrectly = true;
+        totalScore++;
+      }
     }
-  }
-  if (attempts === 1){
+    if (attempts === 1){
     //console.log('Sorry you did not answer Correctly. My answers were red, white, and blue. Good try though!')
-    alert('Sorry you did not answer Correctly. My answers were red, white, and blue. Good try though!');
+      alert('Sorry you did not answer Correctly. My answers were red, white, and blue. Good try though!');
+    }
+    attempts--;
   }
-  attempts--;
-}
 
-alert('You scored ' + totalScore + ' out of 7 questions. Thanks for playing ' + username + '!');
+  alert('You scored ' + totalScore + ' out of 7 questions. Thanks for playing ' + username + '!');
 // console.log('Score ' + totalScore)
+}
+q7();

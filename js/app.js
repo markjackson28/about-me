@@ -21,15 +21,16 @@ function q1() {
 }
 q1();
 // Second Question
+function q2() {
+  let answerTwo = prompt('Was I ever a waiter?').toLowerCase();
 
-let answerTwo = prompt('Was I ever a waiter?').toLowerCase();
-
-if (answerTwo === 'no' || answerTwo === 'n') {
+  if (answerTwo === 'no' || answerTwo === 'n') {
   // console.log('You are correct! I was not a waiter, I was a bartender.');
-  alert('You are correct! I was not a waiter, I was a bartender.');
-  totalScore++;
+    alert('You are correct! I was not a waiter, I was a bartender.');
+    totalScore++;
+  }
 }
-
+q2();
 // Third Question
 
 let answerThree = prompt('Is it one of my goals to compete in the CrossFit games?').toLowerCase();

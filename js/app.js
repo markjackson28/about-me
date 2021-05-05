@@ -66,31 +66,34 @@ function q5 () {
   }
 }
 q5();
+
 // Sixth Question
+function q6 () {
+  alert('I have a picked a number between 1-15. You will have 4 chances to guess the correct number. Have fun!');
 
-alert('I have a picked a number between 1-15. You will have 4 chances to guess the correct number. Have fun!');
-
-for (let i = 4; i > 0; i--){
-  let answerSix = parseInt(prompt('Please pick a number 1-15.'));
-  // console.log(I have a picked a number between 1-15. You will have 4 chances to guess the correct number. Have fun!');
-  if (answerSix === 7){
+  for (let i = 4; i > 0; i--){
+    let answerSix = parseInt(prompt('Please pick a number 1-15.'));
+    // console.log(I have a picked a number between 1-15. You will have 4 chances to guess the correct number. Have fun!');
+    if (answerSix === 7){
     // console.log('You are correct!');
-    alert('You are correct! Great Job!');
-    totalScore++;
-    break;
-  }
-  else if (answerSix > 7) {
+      alert('You are correct! Great Job!');
+      totalScore++;
+      break;
+    }
+    else if (answerSix > 7) {
     // console.log('Sorry, too high. Please try again.');
-    alert('Sorry, too high. Please try again.');
-  } else if (answerSix < 7) {
+      alert('Sorry, too high. Please try again.');
+    } else if (answerSix < 7) {
     // console.log('Sorry, too low. Please try again');
-    alert('Sorry, too low. Please try again');
-  } if (i === 1){
-    // console.log('Sorry, you did not guess the correct number. Good Try!');
-    alert('Sorry, you did not guess the correct number. My was 7. Good try!');
-    break;
+      alert('Sorry, too low. Please try again');
+    } if (i === 1){
+      // console.log('Sorry, you did not guess the correct number. Good Try!');
+      alert('Sorry, you did not guess the correct number. My was 7. Good try!');
+      break;
+    }
   }
 }
+q6();
 
 // Seventh Question
 

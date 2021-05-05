@@ -56,15 +56,16 @@ function q4 () {
 }
 q4();
 // Fifth Question
+function q5 () {
+  let answerFive = prompt('Did I ever serve in the military?').toLowerCase();
 
-let answerFive = prompt('Did I ever serve in the military?').toLowerCase();
-
-if (answerFive === 'yes' || answerFive === 'y') {
+  if (answerFive === 'yes' || answerFive === 'y') {
   // console.log('You are correct! I did serve in the military!');
-  alert('You are correct! I did serve in the military!');
-  totalScore++;
+    alert('You are correct! I did serve in the military!');
+    totalScore++;
+  }
 }
-
+q5();
 // Sixth Question
 
 alert('I have a picked a number between 1-15. You will have 4 chances to guess the correct number. Have fun!');

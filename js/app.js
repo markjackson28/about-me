@@ -32,14 +32,16 @@ function q2() {
 }
 q2();
 // Third Question
+function q3() {
+  let answerThree = prompt('Is it one of my goals to compete in the CrossFit games?').toLowerCase();
 
-let answerThree = prompt('Is it one of my goals to compete in the CrossFit games?').toLowerCase();
-
-if (answerThree === 'yes' || answerThree === 'y') {
+  if (answerThree === 'yes' || answerThree === 'y') {
   // console.log('You are correct! I hope to compete in the CrossFit Games.');
-  alert('You are correct! I hope to compete in the CrossFit Games.');
-  totalScore++;
+    alert('You are correct! I hope to compete in the CrossFit Games.');
+    totalScore++;
+  }
 }
+q3();
 
 // Fourth Question
 

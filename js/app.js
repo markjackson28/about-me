@@ -44,16 +44,17 @@ function q3() {
 q3();
 
 // Fourth Question
+function q4 () {
+  let answerFour = prompt('Did I live in Canada before Seattle?').toLowerCase();
 
-let answerFour = prompt('Did I live in Canada before Seattle?').toLowerCase();
-
-if (answerFour === 'no' || answerFour === 'n') {
+  if (answerFour === 'no' || answerFour === 'n') {
   // console.log('You are correct! I lived in Tacoma before Seattle.');
   // console.log('answerFour: ' + answerFour)
-  alert('You are correct! I lived in Tacoma before Seattle.');
-  totalScore++;
+    alert('You are correct! I lived in Tacoma before Seattle.');
+    totalScore++;
+  }
 }
-
+q4();
 // Fifth Question
 
 let answerFive = prompt('Did I ever serve in the military?').toLowerCase();

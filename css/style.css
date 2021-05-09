@@ -2,7 +2,15 @@
     background-color: lightgray;
 }
 
+img {
+    margin: auto;
+    width: 15%;
+    display: block;
+    border: solid whitesmoke;
+}
+
 h1 {
+    text-align: center;
     margin: 25px;
     text-decoration: underline;
     font-size: 2em;

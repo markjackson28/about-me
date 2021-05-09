@@ -3,14 +3,12 @@
 }
 
 img {
-    margin: auto;
-    width: 15%;
-    display: block;
+    margin: 0px 25px 5px;
     border: solid whitesmoke;
 }
 
 h1 {
-    text-align: center;
+
     margin: 25px;
     text-decoration: underline;
     font-size: 2em;
